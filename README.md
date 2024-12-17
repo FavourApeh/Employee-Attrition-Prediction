@@ -1,8 +1,10 @@
-# Employee-Attrition-Prediction
+# Overview
 This project uses machine learning to predict employee attrition by analyzing demographic, job-related, and satisfaction metrics. It provides insights into the likelihood of employees leaving and explores class imbalance handling, feature engineering, and hyperparameter tuning for optimal performance.
 # Features
 Exploratory Data Analysis (EDA): Includes visualizations of class imbalance, correlation matrices, and feature importance.
+
 Feature Engineering: Created interaction terms, binned continuous variables, and applied improved categorical encoding.
+
 Class Imbalance Handling: Applied SMOTE (Synthetic Minority Oversampling Technique) to balance the dataset.
 # Model Training:
 Baseline model using XGBoost.
