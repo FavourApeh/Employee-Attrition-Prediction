@@ -41,13 +41,18 @@ Performance Metrics: Performance Rating, Training Times Last Year
 Target Variable: Attrition (binary: 0 = No, 1 = Yes)
 # Project Workflow
 Data Cleaning: Removed irrelevant columns and handled missing values.
+
 Feature Engineering: Created new interaction terms and binned categorical variables.
+
 Data Preprocessing: Applied scaling and encoding techniques.
+
 Model Training:
 Split the data into training and testing sets.
 Balanced the training data using SMOTE.
 Trained and fine-tuned the XGBoost model.
+
 Evaluation: Compared baseline and optimized models on various performance metrics.
+
 Visualization: Generated insights through plots and metrics visualization.
 # Results
 Optimized Model Metrics (with threshold tuning at 0.40):
